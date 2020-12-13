@@ -1,0 +1,68 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+
+    src: url('../fonts/IRANSansWeb(FaNum).eot') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSansWeb(FaNum).woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSansWeb(FaNum).woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+.font {
+    font-family: IRANSans;
+    font-size: 11pt;
+    text-align: right;
+    direction: rtl;
+    font-weight: normal;
+}
+
+label.file {
+    border: 1px solid #cccccc;
+    width: 150px;
+    height: 40px;
+    background: #8fdf85;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.img {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.sc{
+    overflow-y: auto;
+    touch-action: auto!important;
+    pointer-events: auto!important;
+    user-select: auto!important;
+}
+
+.dropzone {
+    padding: 0px !important;
+    overflow: hidden !important;
+    height: 50px !important;
+}
+
+#carouselExampleIndicators {
+    box-shadow: 0px 0px 12px darkgray;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.savee{
+    text-align: center;
+    height: 70px!important;
+    cursor: pointer;
+    width:100%;
+}
+
+.carousel-control-prev {
+    left: 20px!important;
+}
+.custom{
+    color: white;
+}
+
+.append_error li{
+    color: black!important;
+}
